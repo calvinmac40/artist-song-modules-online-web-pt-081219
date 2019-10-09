@@ -9,6 +9,7 @@ class Artist
   @@artists = []
   extend Memorable::ClassMethods
   include Memorable::InstanceMethods
+  binding.pry
   def initialize
     super
     @songs = []
