@@ -11,7 +11,7 @@ class Artist
   include Memorable::InstanceMethods
   
   def initialize
-    self.class.all << self
+    # self.class.all << self
     @songs = []
   end
 
