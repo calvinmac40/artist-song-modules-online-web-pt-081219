@@ -9,8 +9,6 @@ class Artist
   include Memorable::InstanceMethods
 
   @@artists = []
-  # extend Memorable::ClassMethods
-  # include Memorable::InstanceMethods
   
   def initialize
     self.class.all << self
